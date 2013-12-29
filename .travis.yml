@@ -1,0 +1,13 @@
+language: scala
+
+scala:
+  - 2.10.3
+
+jdk:
+  - oraclejdk7
+  - openjdk7
+  - openjdk6
+  - oraclejdk8
+
+script:
+  sbt run
